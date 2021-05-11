@@ -1,7 +1,6 @@
 {
   "packageName": "Hubitat Ring Integration (Unofficial)",
   "author": "codahq",
-
   "version": "0.3.7",
   "minimumHEVersion": "0.0",
   "dateReleased": "2021-08-16",
@@ -177,6 +176,13 @@
       "name": "Ring Virtual Switch",
       "namespace": "ring-hubitat-codahq",
       "location": "https://raw.githubusercontent.com/HubitatCommunity/hubitat_ring_integration/v0.3.7/src/drivers/ring-virtual-switch.groovy",
+      "required": false
+    },
+    {
+      "id": "d010d9fa-653d-4c48-aa0e-dad26d65d7ee",
+      "name": "Ring Virtual Panic BUtton",
+      "namespace": "ring-hubitat-codahq",
+      "location": "https://raw.githubusercontent.com/HubitatCommunity/hubitat_ring_integration/v0.3.7/src/drivers/ring-virtual-panic-button.groovy",
       "required": false
     }
   ],
