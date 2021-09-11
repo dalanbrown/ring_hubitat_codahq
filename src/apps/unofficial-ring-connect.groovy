@@ -1793,7 +1793,8 @@ def isOAuthEnabled() {
   "cocoa_doorbell",
   "lpd_v1",
   "lpd_v2",
-  "jbox_v1"
+  "jbox_v1",
+  "doorbell_graham_cracker"
 ]
 
 @Field static def DEVICE_TYPES = [
@@ -1812,6 +1813,7 @@ def isOAuthEnabled() {
   "doorbell_v4": [name: "Ring Video Doorbell 2", driver: "Ring Virtual Camera", dingable: true],
   "doorbell_v5": [name: "Ring Video Doorbell 2", driver: "Ring Virtual Camera", dingable: true],
   "doorbell": [name: "Ring Video Doorbell", driver: "Ring Virtual Camera", dingable: true],
+  "doorbell_graham_cracker": [name: "Ring Video Doorbell Wired", driver: "Ring Virtual Camera", dingable: true],
   "floodlight_v2": [name: "Ring Floodlight Cam Wired", driver: "Ring Virtual Light with Siren", dingable: true],
   "hp_cam_v1": [name: "Ring Floodlight Cam", driver: "Ring Virtual Light with Siren", dingable: true],
   "hp_cam_v2": [name: "Ring Spotlight Cam Wired", driver: "Ring Virtual Light with Siren", dingable: true],
